@@ -15,9 +15,9 @@ A **Chromium browser extension** that integrates Google Gemini AI directly into 
 ## Installation
 
 1. **Download or clone** this repository:
-   `ash
+   ```bash
    git clone https://github.com/hussainbiedouh/gemini-in-gmail.git
-   `
+   ```
 2. Open your **Chromium browser** (Chrome, Edge, Brave, Opera, Vivaldi, etc.) and navigate to the extensions page (chrome://extensions or edge://extensions)
 3. Enable **Developer mode** (toggle in the top-right corner)
 4. Click **Load unpacked**
@@ -56,17 +56,17 @@ A **Chromium browser extension** that integrates Google Gemini AI directly into 
 
 ## Project Structure
 
-`
+```
 gemini-in-gmail/
-├── background.js        # Service worker — proxies Gemini API calls
-├── content.js           # Content script — injects UI into Gmail
-├── manifest.json        # Extension manifest (Manifest V3)
-├── options.html         # Options page — API key & model config
-├── options.js           # Options page logic
-├── styles.css           # Global / fallback styles
-└── icons/
-    └── icon128.png      # Extension icon
-`
+|-- background.js        # Service worker -- proxies Gemini API calls
+|-- content.js           # Content script -- injects UI into Gmail
+|-- manifest.json        # Extension manifest (Manifest V3)
+|-- options.html         # Options page -- API key & model config
+|-- options.js           # Options page logic
+|-- styles.css           # Global / fallback styles
+|-- icons/
+    \-- icon128.png      # Extension icon
+```
 
 ## License
 

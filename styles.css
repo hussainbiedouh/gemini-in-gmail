@@ -1,0 +1,12 @@
+﻿/* 
+ * styles.css — Shared styles for Gemini for Gmail extension.
+ * Injected into Gmail pages via manifest.json content_scripts css array.
+ * Note: The content.js uses Shadow DOM with inline styles for style isolation.
+ * This file provides any global/fallback styles.
+ */
+
+/* Ensure the injected bar root doesn't break Gmail layout */
+.gemini-gmail-bar-root {
+  all: initial;
+  display: block;
+}

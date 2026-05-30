@@ -1,0 +1,30 @@
+﻿# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Node / Dependency
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Python / Tools (ruff cache — local linting only)
+.ruff_cache/
+
+# Development / Helper scripts
+insert_block.ps1
+
+# Environment
+.env
+.env.local
